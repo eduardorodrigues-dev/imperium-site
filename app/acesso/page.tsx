@@ -1,6 +1,5 @@
-import Reveal from '../../components/Reveal'
-import AcessoContent from '../../content/acesso.mdx'
-
+import Reveal from '@/components/Reveal'
+import AcessoContent from '@/content/acesso.mdx'
 export const metadata = {
   title: 'Acesso',
   description: 'Acesso à comunidade Imperium',
