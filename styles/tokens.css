@@ -1,0 +1,40 @@
+/*
+ * Design tokens for the Imperium site. These CSS variables define the
+ * underlying colours, spacing scale, typography, motion timings and
+ * background layers. They centralise the visual system so it can be
+ * referenced consistently throughout the project.
+ */
+
+:root {
+  /* Colours */
+  --color-bg-base: #0b0b0b;
+  --color-fg-primary: #e0e0e0;
+  --color-fg-secondary: #a5a5a5;
+  --color-link: #8c8c8c;
+  --color-border: #444444;
+
+  /* Typography */
+  --font-family-base: "Georgia", "Times New Roman", Times, serif;
+  --font-size-xs: 0.875rem; /* 14px */
+  --font-size-sm: 1rem;     /* 16px */
+  --font-size-md: 1.125rem; /* 18px */
+  --font-size-lg: 1.5rem;   /* 24px */
+  --font-size-xl: 2.25rem;  /* 36px */
+  --line-height-base: 1.6;
+  --max-width-reading: 70ch;
+
+  /* Spacing scale */
+  --space-0: 0rem;
+  --space-1: 0.25rem;
+  --space-2: 0.5rem;
+  --space-3: 1rem;
+  --space-4: 1.5rem;
+  --space-5: 2rem;
+  --space-6: 3rem;
+  --space-7: 4rem;
+  --space-8: 5rem;
+
+  /* Motion tokens */
+  --duration-reveal: 0.8s; /* 600–900ms range */
+  --easing: cubic-bezier(0.33, 1, 0.68, 1);
+}
